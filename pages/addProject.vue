@@ -124,7 +124,7 @@ export default {
       }
 
       // Save to local storage
-      localStorage.setItem("kapalData", JSON.stringify(this.savedData));
+      localStorage.setItem("dataKapal", JSON.stringify(this.savedData));
 
       // Clear form fields
       this.formData = {
@@ -142,7 +142,7 @@ export default {
     deleteData(index) {
       // Delete data and save to local storage
       this.savedData.splice(index, 1);
-      localStorage.setItem("kapalData", JSON.stringify(this.savedData));
+      localStorage.setItem("dataKapal", JSON.stringify(this.savedData));
     },
   },
   mounted() {

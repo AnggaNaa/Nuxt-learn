@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-800 text-white p-4">
+  <footer class="bg-gray-800 text-white p-4 mt-24">
     <div class="container mx-auto flex justify-between items-center">
       <div>
         <p class="font-bold">Wave Cater Cargo</p>
